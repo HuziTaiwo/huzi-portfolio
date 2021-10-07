@@ -96,6 +96,8 @@ nav .container {
   height: 400px;
   perspective: 1500px;
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 
 .hero-image-grid {
@@ -194,8 +196,12 @@ p.fade {
   width: 100%;
   height: 100%;
   z-index: -1;
-  filter: blur(40px);
-  -webkit-filter: blur(40px);
+  transition: 0.3s ease;
+}
+
+.selected-project-effect.glow {
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
 }
 
 p.lead {
@@ -401,7 +407,7 @@ footer .container {
 
 @media (max-width: 512px) {
   .hero-camera {
-    height: 20vh;
+    height: 30vh;
   }
   .container {
     padding: 0 15px;
