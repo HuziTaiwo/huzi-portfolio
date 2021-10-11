@@ -1,0 +1,68 @@
+/* fonts : inter 400, 600 : DM Serif Display 400 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #141414;
+  color: #fff;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav {
+  background: #000;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 15px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 0;
+}
+
+.hi {
+  border-radius: 6px;
+  background: #141414;
+}
+
+.text {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+h1 {
+  font-weight: 400;
+  max-width: 500px;
+  padding-bottom: 60px;
+}
+
+.hero-img {
+  width: 100%;
+  height: 450px;
+}
