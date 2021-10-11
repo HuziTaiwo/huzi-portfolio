@@ -1,14 +1,20 @@
-/* fonts : inter 400, 600 : DM Serif Display 400 */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;600&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 body {
   background: #141414;
   color: #fff;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "DM Serif Display", serif;
 }
 
 .section {
@@ -34,10 +40,11 @@ nav .container {
 .nav {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
 .nav-link {
-  padding: 0 15px;
+  padding: 20px;
 }
 
 .nav-link a {
@@ -49,6 +56,7 @@ nav .container {
 .hi {
   border-radius: 6px;
   background: #141414;
+  padding: 8px 20px;
 }
 
 .text {
@@ -64,5 +72,15 @@ h1 {
 
 .hero-img {
   width: 100%;
-  height: 450px;
+}
+
+.secondary-heading {
+  padding-bottom: 15px;
+  font-size: 28px;
+  max-width: 500px;
+}
+
+p.fade {
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 500px;
 }
