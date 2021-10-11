@@ -84,3 +84,47 @@ p.fade {
   color: rgba(255, 255, 255, 0.6);
   max-width: 500px;
 }
+
+.project {
+  height: 400px;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  background: #fc3439;
+}
+.project-2 {
+  background: #7d20a6;
+}
+.project-3 {
+  background: #0c1eb9;
+}
+.project h3 {
+  padding: 15px 0;
+  font-weight: 400;
+  font-size: 20px;
+}
+.details {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.project img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+
+p.lead {
+  padding-bottom: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+p.project-info {
+  padding-bottom: 15px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.project-link {
+  margin-top: auto;
+  color: #fff;
+  text-decoration: none;
+}
