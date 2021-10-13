@@ -358,6 +358,10 @@ footer .container {
     grid-template-columns: 1fr;
     margin-bottom: 15px;
   }
+  
+ .project img {
+   height: 300px;
+  }
 
   .details {
     min-height: auto;
