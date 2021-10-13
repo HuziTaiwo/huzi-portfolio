@@ -397,7 +397,7 @@ footer .container {
   }
 }
 
-/* Other pages */
+/*********** Project pages ************/
 
 .project-heading {
   padding-bottom: 5px;
@@ -422,6 +422,7 @@ footer .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 14px;
+  gap: 30px;
 }
 
 .project-label {
@@ -486,6 +487,7 @@ footer .container {
 
 .project-details {
   padding: 30px;
+  flex-grow: 1;
 }
 
 .details-1 {
@@ -511,3 +513,28 @@ p.other {
 p.second {
   font-size: 22px;
 }
+
+/* tablet - 768px */
+@media (max-width: 768px) {
+  .secondary {
+    padding: 10px 0 30px 0;
+  }
+
+  .project-main-image {
+    height: 300px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr 1.5fr;
+  }
+
+  .other-projects img {
+    height: 200px;
+  }
+}
+
+/* mobile landscape - 678px */
+
+/* mobile portrait - 480px */
+
+/* Larger display IMAC */
