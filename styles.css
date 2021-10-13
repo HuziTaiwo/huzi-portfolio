@@ -409,7 +409,7 @@ footer .container {
 
 .secondary {
   color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 60px;
+  padding: 10px 0 60px 0;
 }
 
 .project-main-image {
@@ -498,6 +498,10 @@ footer .container {
 
 .details-3 {
   background: #31bb5c;
+}
+
+.details-4 {
+  background: #fc3439;
 }
 
 p.other {
