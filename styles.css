@@ -82,11 +82,13 @@ h1 {
   font-weight: 400;
   max-width: 500px;
   padding-bottom: 60px;
+  font-size: 38px;
+  line-height: 1.1;
 }
 
 .camera {
   overflow: hidden;
-  height: 500px;
+  height: auto;
 }
 
 .hero-img {
@@ -107,27 +109,33 @@ p.fade {
 }
 
 .project {
-  min-height: 400px;
   display: grid;
   grid-template-columns: 0.8fr 1fr;
   background: #fc3439;
+  margin-bottom: 30px;
 }
+
 .project-2 {
   background: #7d20a6;
 }
+
 .project-3 {
   background: #0c1eb9;
 }
+
 .project h3 {
   padding: 15px 0;
   font-weight: 400;
   font-size: 20px;
 }
+
 .details {
+  min-height: 500px;
   padding: 30px;
   display: flex;
   flex-direction: column;
 }
+
 .project img {
   height: 100%;
   width: 100%;
@@ -137,6 +145,10 @@ p.fade {
 p.lead {
   padding-bottom: 15px;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.project-name {
+  font-size: 20px;
 }
 
 p.project-info {
@@ -169,9 +181,15 @@ form {
   gap: 0 30px;
 }
 
+.field {
+  margin-bottom: 15px;
+}
+
 form label {
+  display: block;
   text-transform: uppercase;
   font-weight: 600;
+  padding-bottom: 10px;
 }
 
 form input,
@@ -250,7 +268,7 @@ footer .container {
 
   .nav {
     position: absolute;
-    top: 8vh;
+    top: 6vh;
     left: 0;
     width: 100%;
     flex-direction: column;
@@ -259,10 +277,11 @@ footer .container {
     padding: 10px;
     height: 0;
     transition: 0.3s ease-in;
+    overflow: hidden;
   }
 
   .nav.active {
-    height: initial;
+    height: 15vh;
   }
 
   .nav-link {
@@ -277,6 +296,79 @@ footer .container {
   .hamburger {
     display: flex;
   }
+
+  .project {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 0;
+  }
 }
 /* mobile landscape - 568px */
-/* mobile portrait - 320px */
+
+@media (max-width: 568px) {
+  h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+  }
+
+  section,
+  footer {
+    padding: 15px 0;
+  }
+
+  .secondary-heading {
+    font-size: 22px;
+  }
+
+  .details {
+    min-height: 350px;
+  }
+
+  .project-name {
+    font-size: 18px;
+  }
+
+  .project-info {
+    font-size: 14px;
+  }
+}
+
+/* mobile portrait - 480px */
+
+@media (max-width: 512px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .project {
+    grid-template-columns: 1fr;
+    margin-bottom: 15px;
+  }
+
+  .details {
+    min-height: auto;
+  }
+
+  .field-grid {
+    grid-template-columns: 1fr;
+  }
+
+  form button {
+    margin-left: 0;
+  }
+
+  .footer-links {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 1440px) {
+}
