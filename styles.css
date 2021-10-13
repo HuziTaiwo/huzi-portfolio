@@ -111,8 +111,11 @@ p.fade {
 .project {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
-  background: #fc3439;
   margin-bottom: 30px;
+}
+
+.project-1 {
+  background: #fc3439;
 }
 
 .project-2 {
@@ -121,6 +124,10 @@ p.fade {
 
 .project-3 {
   background: #0c1eb9;
+}
+
+.project-4 {
+  background: #31bb5c;
 }
 
 .project h3 {
