@@ -281,6 +281,7 @@ footer .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .footer-paragraph {
@@ -675,10 +676,10 @@ p.second {
 }
 
 /********** Contact page **********/
-body#contact {
+/* body#contact {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .large-heading {
   max-width: none;
