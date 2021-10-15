@@ -162,7 +162,7 @@ p.fade {
 
 .project-3,
 .effect-3 {
-  background: #0c1eb9;
+  background: #137298;
 }
 
 .project-4,
@@ -545,11 +545,12 @@ footer .container {
   gap: 15px;
 }
 
-.other-projects > a {
+.other-project-link-block {
   display: flex;
   flex-direction: column;
   text-decoration: none;
   color: #fff;
+  position: relative;
 }
 
 .other-projects img {
@@ -562,19 +563,19 @@ footer .container {
   flex-grow: 1;
 }
 
-.details-1 {
-  background: #0c1eb9;
+.details-3 {
+  background: #137298;
 }
 
 .details-2 {
   background: #7d20a6;
 }
 
-.details-3 {
+.details-4 {
   background: #31bb5c;
 }
 
-.details-4 {
+.details-1 {
   background: #fc3439;
 }
 
