@@ -92,10 +92,10 @@ nav .container {
 }
 
 .hero-camera {
-  height: 70vh;
+  background: #000;
+  height: 400px;
   perspective: 1500px;
   overflow: hidden;
-  background: #000;
 }
 
 .hero-image-grid {
@@ -114,9 +114,20 @@ nav .container {
 @keyframes tolts {
   from {
     transform: rotateZ(0) rotateX(0);
+    opacity: 0;
   }
   to {
     transform: rotateZ(9.5deg) rotateX(26deg);
+    opacity: 1;
+  }
+}
+
+@keyframes moveleft {
+  from {
+    transform: rotateZ(0) rotateX(0) translateX(0);
+  }
+  to {
+    transform: rotateZ(9.5deg) rotateX(26deg) translateX(-500px);
   }
 }
 
@@ -136,6 +147,7 @@ p.fade {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
   margin-bottom: 30px;
+  position: relative;
 }
 
 .project-1 {
@@ -167,10 +179,21 @@ p.fade {
   flex-direction: column;
 }
 
-.project img {
+.selected-project-image {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.selected-project-effect {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: saturate(200%);
+  -webkit-filter: saturate(200);
+  filter: blur(40px);
+  -webkit-filter: blur(40px);
 }
 
 p.lead {
@@ -297,6 +320,10 @@ footer .container {
     padding: 30px 0;
   }
 
+  .hero-camera {
+    height: 35vh;
+  }
+
   .nav {
     position: absolute;
     top: 6vh;
@@ -370,6 +397,9 @@ footer .container {
 /* mobile portrait - 480px */
 
 @media (max-width: 512px) {
+  .hero-camera {
+    height: 20vh;
+  }
   .container {
     padding: 0 15px;
   }
@@ -383,7 +413,7 @@ footer .container {
     margin-bottom: 15px;
   }
 
-  .project img {
+  .selected-project-image {
     height: 250px;
   }
 
@@ -414,6 +444,10 @@ footer .container {
 @media (min-width: 1440px) {
   .container {
     max-width: 1600px;
+  }
+
+  .hero-camera {
+    height: 35vh;
   }
 
   .heading {
