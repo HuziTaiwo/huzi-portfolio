@@ -97,7 +97,7 @@ nav .container {
   perspective: 1500px;
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: centergi;
 }
 
 .hero-image-grid {
@@ -106,7 +106,9 @@ nav .container {
   gap: 3vw;
   animation: tolts 5s ease-in-out forwards;
 }
+/* transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(26deg) rotateY(0deg) rotateZ(9.5deg) skew(0deg, 0deg); transform-style: preserve-3d; */
 
+/* style="will-change: transform; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; */
 .hero-image {
   box-shadow: 0 0 20px rgba(250, 250, 250, 0.3);
   width: 100%;
@@ -115,12 +117,14 @@ nav .container {
 /* animation & interaction */
 @keyframes tolts {
   from {
-    transform: rotateZ(0) rotateX(0);
+    transform: scale3d(1, 1, 1) rotateZ(0) rotateX(0);
+    transform-style: preserve-3d;
     opacity: 0;
   }
   to {
-    transform: rotateZ(9.5deg) rotateX(26deg);
+    transform: scale3d(1, 1, 1) rotateZ(9.5deg) rotateX(26deg);
     opacity: 1;
+    transform-style: preserve-3d;
   }
 }
 
