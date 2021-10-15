@@ -150,19 +150,23 @@ p.fade {
   position: relative;
 }
 
-.project-1 {
+.project-1,
+.effect-1 {
   background: #fc3439;
 }
 
-.project-2 {
+.project-2,
+.effect-2 {
   background: #7d20a6;
 }
 
-.project-3 {
+.project-3,
+.effect-3 {
   background: #0c1eb9;
 }
 
-.project-4 {
+.project-4,
+.effect-4 {
   background: #31bb5c;
 }
 
@@ -190,8 +194,6 @@ p.fade {
   width: 100%;
   height: 100%;
   z-index: -1;
-  filter: saturate(200%);
-  -webkit-filter: saturate(200);
   filter: blur(40px);
   -webkit-filter: blur(40px);
 }
