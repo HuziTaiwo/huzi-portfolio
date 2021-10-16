@@ -82,6 +82,10 @@ nav .container {
   display: none;
 }
 
+.dark {
+  display: none;
+}
+
 .text {
   font-weight: 600;
   text-transform: uppercase;

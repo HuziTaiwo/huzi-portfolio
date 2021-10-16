@@ -83,6 +83,10 @@ nav .container {
   display: none;
 }
 
+.light {
+  display: none;
+}
+
 .text {
   font-weight: 600;
   text-transform: uppercase;
