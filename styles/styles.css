@@ -67,6 +67,10 @@ nav .container {
   background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
 }
 
+.hi a {
+  color: #fff;
+}
+
 .hamburger {
   background: #000;
   height: 100%;
@@ -341,13 +345,12 @@ footer .container {
 
   .nav {
     position: absolute;
-    top: 6vh;
+    top: 8vh;
     left: 0;
     width: 100%;
     flex-direction: column;
     background: #000;
     align-items: flex-start;
-    padding: 10px;
     height: 0;
     transition: 0.3s ease-in;
     overflow: hidden;
@@ -355,6 +358,7 @@ footer .container {
 
   .nav.active {
     height: 15vh;
+    padding: 10px;
   }
 
   .nav-link {

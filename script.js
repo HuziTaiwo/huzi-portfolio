@@ -10,6 +10,10 @@ hamburgerIcon.addEventListener('click', () => {
     nav.classList.toggle('active');
 });
 
+window.addEventListener('loadstart', () => {
+    
+})
+
 // scroll animation
 
 // const lastScrollTop = 0;
@@ -55,4 +59,4 @@ if(desktop.matches) {
             effect.classList.remove('glow');
         });
     })
-}
+};
