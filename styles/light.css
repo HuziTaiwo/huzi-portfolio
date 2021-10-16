@@ -502,7 +502,7 @@ footer .container {
 }
 
 .secondary {
-  color: rgba(255, 255, 255, 0.45);
+  color: rgba(0, 0, 0, 0.45);
   padding-bottom: 60px;
 }
 
@@ -527,7 +527,7 @@ footer .container {
 }
 
 .project-text {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.6);
   padding-bottom: 60px;
 }
 
@@ -538,7 +538,7 @@ footer .container {
 }
 
 .project-description p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 14px;
   padding-bottom: 10px;
   line-height: 1.5;
@@ -609,6 +609,7 @@ footer .container {
 
 p.other {
   padding-bottom: 5px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 p.second {
@@ -705,10 +706,10 @@ p.second {
 }
 
 /********** Contact page **********/
-/* body#contact {
+body#contact {
   display: flex;
   flex-direction: column;
-} */
+}
 
 .large-heading {
   max-width: none;
@@ -719,7 +720,7 @@ p.second {
   color: #4b5be9;
 }
 
-footer.contact {
+footer {
   margin-top: auto;
 }
 
