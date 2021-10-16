@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  outline-color: #2ba9cf;
 }
 
 html {
@@ -96,7 +97,7 @@ nav .container {
 .heading {
   font-weight: 400;
   max-width: 500px;
-  padding-bottom: 60px;
+  padding: 20px 0 60px;
   font-size: 38px;
   line-height: 1.1;
 }
@@ -156,7 +157,7 @@ nav .container {
 }
 
 p.fade {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.8);
   max-width: 500px;
   padding-bottom: 30px;
 }
@@ -164,7 +165,7 @@ p.fade {
 .project {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
-  margin-bottom: 30px;
+  margin: 20px 0 30px;
   position: relative;
   color: #fff;
 }
@@ -197,7 +198,7 @@ p.fade {
 
 .details {
   min-height: 500px;
-  padding: 30px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
 }
@@ -221,8 +222,7 @@ p.fade {
 }
 
 p.lead {
-  padding-bottom: 15px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .project-name {
@@ -231,7 +231,7 @@ p.lead {
 
 p.project-info {
   padding-bottom: 15px;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .project-link {
@@ -243,15 +243,15 @@ p.project-info {
 form {
   background: #fff;
   color: #000;
-  padding: 30px;
+  padding: 60px;
   display: flex;
   flex-direction: column;
   box-shadow: 28px 28px 150px 0 rgb(0 0 0 / 15%);
 }
 
 .form-paragraph {
-  color: rgba(0, 0, 0, 0.7);
-  padding-bottom: 30px;
+  color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 15px;
 }
 
 .field-grid {
@@ -342,11 +342,6 @@ footer .container {
 
 /* tablet - 768px */
 @media (max-width: 768px) {
-  section,
-  footer {
-    padding: 30px 0;
-  }
-
   .hero-camera {
     height: 35vh;
   }
@@ -390,6 +385,14 @@ footer .container {
     grid-template-columns: 1fr 1fr;
   }
 
+  .details {
+    padding: 30px;
+  }
+
+  form {
+    padding: 30px;
+  }
+
   .footer-links {
     grid-template-columns: 1fr 1fr;
     gap: 15px 0;
@@ -399,21 +402,22 @@ footer .container {
 
 @media (max-width: 678px) {
   .heading {
-    font-size: 30px;
+    font-size: 24px;
     padding-bottom: 30px;
   }
 
   section,
   footer {
-    padding: 15px 0;
+    padding: 30px 0;
   }
 
   .secondary-heading {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .details {
     min-height: 350px;
+    padding: 15px;
   }
 
   .project-name {
@@ -475,10 +479,15 @@ footer .container {
 @media (min-width: 1440px) {
   .container {
     max-width: 1600px;
+    padding: 100px;
+  }
+
+  nav .container {
+    padding: 0 30px;
   }
 
   .hero-camera {
-    height: 35vh;
+    height: 60vh;
   }
 
   .heading {
@@ -502,7 +511,7 @@ footer .container {
 }
 
 .secondary {
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.55);
   padding-bottom: 60px;
 }
 
@@ -527,7 +536,7 @@ footer .container {
 }
 
 .project-text {
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0, 0.7);
   padding-bottom: 60px;
 }
 
