@@ -311,6 +311,25 @@ form button {
   cursor: pointer;
 }
 
+.success {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px auto;
+  display: none;
+}
+
+.success.active {
+  display: flex;
+}
+
+.success-json {
+  margin-bottom: 10px;
+  width: 100px;
+}
+
 footer {
   background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
   color: #fff;
@@ -488,6 +507,10 @@ footer .container {
 
   form button {
     margin-left: 0;
+  }
+
+  .success-json {
+    width: 60px;
   }
 
   .footer-links {
