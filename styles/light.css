@@ -365,7 +365,7 @@ footer .container {
   }
 
   .nav-link {
-    padding: 10px 0;
+    padding: 10px 20px;
   }
 
   .hi {
@@ -432,11 +432,16 @@ footer .container {
 /* mobile portrait - 480px */
 
 @media (max-width: 512px) {
-  .hero-camera {
-    height: 30vh;
-  }
   .container {
     padding: 0 15px;
+  }
+
+  .nav-link {
+    padding: 10px 5px;
+  }
+
+  .hero-camera {
+    height: 30vh;
   }
 
   .logo {
@@ -554,14 +559,15 @@ footer .container {
 }
 
 .btn {
-  padding: 10px;
+  display: inline-block;
+  padding: 10px 15px;
   background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
   border-radius: 5px;
+  margin-top: 30px;
 }
 
 .project-link img {
   margin-left: 5px;
-  padding-top: 10px;
 }
 
 .multi-image-grid {
@@ -579,7 +585,7 @@ footer .container {
 .other-projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
+  gap: 30px;
 }
 
 .other-project-link-block {
@@ -639,6 +645,11 @@ p.second {
     grid-template-columns: 1fr 1.5fr;
   }
 
+  .multi-image-grid,
+  .other-projects {
+    gap: 10px;
+  }
+
   .other-projects img {
     height: 200px;
   }
@@ -665,10 +676,6 @@ p.second {
 
   .project-label {
     padding-bottom: 5px;
-  }
-
-  .multi-image-grid {
-    gap: 15px;
   }
 
   .project-grid-image {
