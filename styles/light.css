@@ -162,6 +162,11 @@ p.fade {
   padding-bottom: 30px;
 }
 
+.project-main-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 .project {
   display: grid;
   grid-template-columns: 0.8fr 1fr;

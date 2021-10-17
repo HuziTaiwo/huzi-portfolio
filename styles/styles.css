@@ -159,6 +159,11 @@ p.fade {
   padding-bottom: 30px;
 }
 
+.project-main-link {
+  color: #fff;
+  text-decoration: none;
+}
+
 .project {
   display: grid;
   grid-template-columns: 0.8fr 1fr;
@@ -231,9 +236,11 @@ p.project-info {
   color: rgba(255, 255, 255, 0.7);
 }
 
-div.project-client-preview {
-  font-size: 12px;
+.project-client-preview {
+  font-size: 14px;
   color: rgba(255, 255, 255, 0.7);
+  margin-top: auto;
+  order: 1;
 }
 
 .project-link {
