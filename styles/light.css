@@ -23,6 +23,10 @@ h3 {
   letter-spacing: 1px;
 }
 
+p {
+  max-width: 60ch;
+}
+
 section,
 footer {
   padding: 60px 0;
@@ -96,7 +100,6 @@ nav .container {
 
 .heading {
   font-weight: 400;
-  max-width: 500px;
   padding: 20px 0 60px;
   font-size: 38px;
   line-height: 1.1;
