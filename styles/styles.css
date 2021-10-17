@@ -446,7 +446,7 @@ footer .container {
   }
 
   .secondary-heading {
-    font-size: 18px;
+    font-size: 25px;
   }
 
   .details {
@@ -786,4 +786,77 @@ footer.contact {
   .large-heading {
     font-size: 50px;
   }
+}
+
+/********** 404 **********/
+.utility-wrapper {
+  background: #171718;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.interaction-404 {
+  position: absolute;
+}
+
+.utility-page {
+  position: relative;
+  z-index: 3;
+}
+
+.utility-heading {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+  padding-bottom: 30px;
+  line-height: 1;
+}
+
+.frosted-glass {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 30px;
+}
+
+.text-404 {
+  font-size: 150px;
+  font-family: "DM Serif Display", serif;
+  line-height: 1;
+}
+
+.detail-404 {
+  max-width: 260px;
+}
+
+.divider {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.8);
+  margin: 30px 0;
+}
+
+.home-btn {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+}
+
+.image-circle {
+  width: 460px;
+  height: 460px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.glow {
+  position: absolute;
+  left: 0;
+  filter: blur(75px) saturate(200%);
+  z-index: 1;
 }
