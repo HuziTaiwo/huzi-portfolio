@@ -234,6 +234,13 @@ p.project-info {
   color: rgba(255, 255, 255, 0.8);
 }
 
+.project-client-preview {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: auto;
+  order: 1;
+}
+
 .project-link {
   margin-top: auto;
   color: #fff;
