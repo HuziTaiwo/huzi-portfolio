@@ -68,6 +68,7 @@ nav .container {
   border-radius: 6px;
   background: #141414;
   padding: 8px 20px;
+  margin-left: 20px;
   background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
 }
 
@@ -387,6 +388,7 @@ footer .container {
   .hi {
     border-radius: none;
     background: none;
+    margin: 0;
   }
 
   .hamburger {
