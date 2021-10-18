@@ -789,6 +789,10 @@ footer.contact {
 }
 
 /********** 404 **********/
+.utility-body {
+  overflow: hidden;
+}
+
 .utility-wrapper {
   background: #171718;
   height: 100vh;
@@ -802,6 +806,7 @@ footer.contact {
 
 .interaction-404 {
   position: absolute;
+  transition: 5s linear;
 }
 
 .utility-page {
@@ -812,13 +817,16 @@ footer.contact {
 .utility-heading {
   color: rgba(255, 255, 255, 0.9);
   font-weight: 400;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   line-height: 1;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .frosted-glass {
   background: rgba(0, 0, 0, 0.4);
   padding: 30px;
+  -webkit-backdrop-filter: saturate(200%) blur(35px) brightness(100%);
+  backdrop-filter: saturate(200%) blur(35px) brightness(100%);
 }
 
 .text-404 {
@@ -852,6 +860,8 @@ footer.contact {
   border-radius: 50%;
   position: relative;
   z-index: 2;
+  object-fit: cover;
+  transform-style: preserve-3d;
 }
 
 .glow {
