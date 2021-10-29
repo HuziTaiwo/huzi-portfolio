@@ -70,7 +70,7 @@ nav .container {
   background: #141414;
   padding: 8px 20px;
   margin-left: 20px;
-  background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
+  background: #100e1d;
 }
 
 .hi a {
@@ -220,13 +220,14 @@ p.fade {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -2;
   transition: 0.3s ease;
 }
 
 .selected-project-effect.glow {
   filter: blur(10px);
   -webkit-filter: blur(10px);
+  z-index: -2;
 }
 
 p.lead {
@@ -302,7 +303,7 @@ form button {
   padding: 10px;
   border: none;
   margin-left: auto;
-  background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
+  background: #100e1d;
   color: #fff;
   border-radius: 3px;
   margin-top: 15px;
@@ -329,7 +330,8 @@ form button {
 }
 
 footer {
-  background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
+  background: #100e1d;
+  color: #fff;
 }
 
 footer .container {
@@ -595,7 +597,7 @@ footer .container {
 .btn {
   display: inline-block;
   padding: 10px 15px;
-  background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
+  background: #100e1d;
   border-radius: 5px;
   margin-top: 30px;
 }
