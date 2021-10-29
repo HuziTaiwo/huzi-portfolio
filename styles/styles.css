@@ -175,9 +175,10 @@ p.fade {
   grid-template-columns: 0.8fr 1fr;
   margin: 20px 0 30px;
   position: relative;
+  background: #100e1d;
 }
 
-.project-1,
+/* .project-1,
 .effect-1 {
   background: #fc3439;
 }
@@ -195,7 +196,7 @@ p.fade {
 .project-4,
 .effect-4 {
   background: #31bb5c;
-}
+} */
 
 .project h3 {
   padding: 15px 0;
@@ -222,6 +223,7 @@ p.fade {
   height: 100%;
   z-index: -2;
   transition: 0.3s ease;
+  background: #5d5785;
 }
 
 .selected-project-effect.glow {

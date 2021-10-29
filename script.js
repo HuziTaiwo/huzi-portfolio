@@ -20,6 +20,7 @@ form.addEventListener('submit', e => {
     setTimeout(() => {
         success.classList.remove('active');
     }, 4000)
+    successEffect.currentTime = 0;
 });
 
 
