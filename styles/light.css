@@ -177,26 +177,7 @@ p.fade {
   margin: 20px 0 30px;
   position: relative;
   color: #fff;
-}
-
-.project-1,
-.effect-1 {
-  background: #fc3439;
-}
-
-.project-2,
-.effect-2 {
-  background: #7d20a6;
-}
-
-.project-3,
-.effect-3 {
-  background: #137298;
-}
-
-.project-4,
-.effect-4 {
-  background: #31bb5c;
+  background: #100e1d;
 }
 
 .project h3 {
@@ -222,12 +203,15 @@ p.fade {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: -2;
   transition: 0.3s ease;
+  background: #5d5785;
 }
 
 .selected-project-effect.glow {
-  filter: saturate(200%) blur(20px);
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  z-index: -2;
 }
 
 p.lead {
@@ -304,7 +288,7 @@ form button {
   padding: 10px;
   border: none;
   margin-left: auto;
-  background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
+  background: #100e1d;
   color: #fff;
   border-radius: 3px;
   margin-top: 15px;
@@ -331,7 +315,7 @@ form button {
 }
 
 footer {
-  background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
+  background: #100e1d;
   color: #fff;
 }
 
@@ -601,7 +585,7 @@ footer .container {
 .btn {
   display: inline-block;
   padding: 10px 15px;
-  background: linear-gradient(125.18deg, #0c1eb9 -13.24%, #7d20a6 109.11%);
+  background: #100e1d;
   border-radius: 5px;
   margin-top: 30px;
 }
@@ -620,6 +604,7 @@ footer .container {
   width: 100%;
   height: 350px;
   object-fit: cover;
+  box-shadow: 0 0 25px rgba(75, 75, 75, 0.1);
 }
 
 .other-projects {
@@ -634,32 +619,19 @@ footer .container {
   text-decoration: none;
   color: #fff;
   position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .other-projects img {
   width: 100%;
   height: 250px;
+  object-fit: cover;
 }
 
 .project-details {
   padding: 30px;
   flex-grow: 1;
-}
-
-.details-3 {
-  background: #137298;
-}
-
-.details-2 {
-  background: #7d20a6;
-}
-
-.details-4 {
-  background: #31bb5c;
-}
-
-.details-1 {
-  background: #fc3439;
+  background: #100e1d;
 }
 
 p.other {
@@ -689,10 +661,6 @@ p.second {
   .other-projects {
     gap: 10px;
   }
-
-  .other-projects img {
-    height: 200px;
-  }
 }
 
 /* mobile landscape - 678px */
@@ -719,7 +687,7 @@ p.second {
   }
 
   .project-grid-image {
-    height: 200px;
+    height: 250px;
   }
 
   .other-projects {
