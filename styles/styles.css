@@ -71,6 +71,7 @@ nav .container {
   padding: 8px 20px;
   margin-left: 20px;
   background: #100e1d;
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
 .hi a {
@@ -396,6 +397,7 @@ footer .container {
     border-radius: none;
     background: none;
     margin: 0;
+    border: none;
   }
 
   .hamburger {
