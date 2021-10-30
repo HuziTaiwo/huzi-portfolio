@@ -328,9 +328,13 @@ footer .container {
   text-align: center;
 }
 
+footer.logo {
+ margin-bottom: 30px; 
+} 
+
 .footer-paragraph {
   max-width: 600px;
-  padding: 15px 0;
+  padding-bottom: 15px;
 }
 
 .footer-links {
@@ -338,7 +342,7 @@ footer .container {
   grid-template-columns: repeat(4, 1fr);
   list-style: none;
   text-align: center;
-  padding-bottom: 30px;
+  padding: 15px 0 30px;
 }
 
 .footer-links li {
