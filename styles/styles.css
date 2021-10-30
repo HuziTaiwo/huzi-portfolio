@@ -177,6 +177,7 @@ p.fade {
   position: relative;
   background: #100e1d;
   border: 1px solid rgba(255,255,255,0.2);
+  border-radius:5px;
 }
 
 .project h3 {
