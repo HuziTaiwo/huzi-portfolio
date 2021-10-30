@@ -197,7 +197,7 @@ p.fade {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  border-radius:0 0 5px 5px;
+  border-radius:0 5px 5px 0;
 }
 
 .selected-project-effect {
@@ -476,6 +476,7 @@ footer .container {
 
   .selected-project-image {
     height: 250px;
+    border-radius:0 0 5px 5px;
   }
 
   .details {
