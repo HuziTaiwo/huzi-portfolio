@@ -111,7 +111,7 @@ nav .container {
   perspective: 1500px;
   overflow: hidden;
   display: flex;
-  align-items: centergi;
+  align-items: center;
 }
 
 .hero-image-grid {
@@ -123,8 +123,6 @@ nav .container {
 
 .hero-image {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
 
 /* animation & interaction */
@@ -463,7 +461,7 @@ footer .container {
   }
 
   .hero-camera {
-    height: 30vh;
+    height: 20vh;
   }
 
   .logo {
