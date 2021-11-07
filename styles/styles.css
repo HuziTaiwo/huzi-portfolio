@@ -46,13 +46,17 @@ nav .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 8vh;
+  height: 10vh;
 }
 
 .nav {
   display: flex;
   list-style: none;
   align-items: center;
+}
+
+.logo {
+  width: 50px;
 }
 
 .nav-link {
@@ -462,10 +466,6 @@ footer .container {
 
   .hero-camera {
     height: 20vh;
-  }
-
-  .logo {
-    width: 150px;
   }
 
   .project {
