@@ -32,6 +32,11 @@ footer {
   padding: 60px 0;
 }
 
+/* button:focus,
+a:focus{
+  outline: 3px solid #392e81;
+} */
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
