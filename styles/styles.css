@@ -83,8 +83,16 @@ nav .container {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+.hi:hover {
+  background: #6d4ed7;
+}
+
 .hi a {
   color: #fff;
+}
+
+.brand-color:hover {
+  color: #6d4ed7;
 }
 
 .hamburger {
@@ -298,6 +306,10 @@ form button {
   cursor: pointer;
 }
 
+form button:hover {
+  background: #6d4ed7;
+}
+
 .success {
   text-align: center;
   display: flex;
@@ -356,6 +368,10 @@ footer .container {
   text-decoration: none;
 }
 
+.footer-links a:hover {
+  color: #6d4ed7;
+}
+
 .social-brand {
   display: flex;
   align-items: center;
@@ -365,6 +381,10 @@ footer .container {
 .social-brand li {
   padding: 0 10px;
 }
+
+/* .social-brand img:hover {
+  fill: #6d4ed7;
+} */
 
 /* tablet - 768px */
 @media (max-width: 768px) {
@@ -597,6 +617,10 @@ footer .container {
   border-radius: 5px;
   margin: 30px auto 0 0;
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn:hover {
+  background: #6d4ed7;
 }
 
 .project-link img {
