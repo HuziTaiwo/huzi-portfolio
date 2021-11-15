@@ -7,6 +7,8 @@ const hamburgerIcon = document.querySelector('.hamburger');
 const form = document.querySelector('form');
 const success = document.querySelector('.success');
 const successEffect = document.querySelector('.success-json');
+const images = document.querySelectorAll('img');
+
 
 hamburgerIcon.addEventListener('click', () => {
     nav.classList.toggle('active');
@@ -39,3 +41,8 @@ if(desktop.matches) {
         });
     })
 };
+
+// disable context menu
+images.forEach(img => {
+    img.addEventListener('contextmenu', e => e.preventDefault())
+})
