@@ -408,11 +408,13 @@ footer .container {
     height: 0;
     transition: 0.3s ease-in;
     overflow: hidden;
+    pointer-events: none;
   }
 
   .nav.active {
     height: 15vh;
     padding: 10px;
+    pointer-events: all;
   }
 
   .nav-link {
