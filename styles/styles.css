@@ -757,10 +757,10 @@ p.second {
 }
 
 /********** Contact page **********/
-/* body#contact {
+body#contact {
   display: flex;
   flex-direction: column;
-} */
+}
 
 .large-heading {
   max-width: none;
