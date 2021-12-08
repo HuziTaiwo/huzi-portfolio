@@ -446,8 +446,8 @@ footer .container {
     gap: 15px 0;
   }
 }
-/* mobile landscape - 678px */
 
+/* mobile landscape - 678px */
 @media (max-width: 678px) {
   .heading {
     font-size: 24px;
