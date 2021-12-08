@@ -7,10 +7,6 @@
   outline-color: #2ba9cf;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   background: #141414;
   color: #fff;
