@@ -478,7 +478,6 @@ footer .container {
 }
 
 /* mobile portrait - 480px */
-
 @media (max-width: 512px) {
   .container {
     padding: 0 15px;
